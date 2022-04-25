@@ -1,0 +1,30 @@
+{
+  "name": "@klauss-m/prettier-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Custom prettier configuration",
+  "main": ".prettierrc.json",
+  "author": {
+    "name": "Klauss Marques",
+    "email": "klauss.marques@gmail.com"
+  },
+  "keywords": [
+    "prettier",
+    "configuration",
+    "custom"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:klauss-m/prettier-config"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.0",
+    "prettier": "^2.6.2"
+  }
+}
