@@ -28,7 +28,7 @@ yarn add prettier @klauss-m/prettier-config
 
 ## Extending
 
-you can extend this config
+you can extend this config:
 
 ```js
 module.exports = {
