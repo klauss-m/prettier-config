@@ -17,9 +17,7 @@ yarn add prettier @klauss-m/prettier-config
 1. add prettier key to your `package.json`
 
 ```json
-...
 "prettier": "@klauss-m/prettier-config"
-...
 ```
 
 2. importing from `.prettierrc.json`
@@ -32,7 +30,7 @@ yarn add prettier @klauss-m/prettier-config
 
 you can extend this config
 
-```json
+```js
 module.exports = {
   ...require('@klauss-m/prettier-config'),
   semi: true,
