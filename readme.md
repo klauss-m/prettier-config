@@ -9,7 +9,7 @@ I want to have an easy access to all my configurations.
 You should install it as a dev dependency:
 
 ```bash
-yarn add prettier @klauss-m/prettier-config
+yarn add prettier @klauss-m/prettier-config -D
 ```
 
 ## Usage
